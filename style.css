@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth scroll;
+    font-family: 'TT Norms Pro';
+}
+
+.navbar {
+    background: #fff;
+    height: 115px;
+    display: flex;
+    font-size: 1.15em;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+#navbar_logo1 {
+    align-items: bottom, left;
+    justify-content: bottom, left;
+    display: flex;
+}
+
+#navbar_logo2 {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-right: 10%;
+}
+
+.navbar_menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.navbar_item {
+    height: 80px;
+}
+
+.navbar_links {
+    color: #ED1B30;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-decoration: none;
+    width: 160px;
+    height: 40%;
+    font-family: 'TT Norms Pro', sans-serif;
+}
+
+#home_page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+li::marker {
+    color: #fff;
+}
+
+.navbar_links:hover {
+    color: rgb(170, 0, 255);
+    background-color: rgb(207, 207, 207);
+    transition: all 0.5 ease;
+}
+
+.footer_links:hover {
+    color: rgb(170, 0, 255);
+    transition: all 0.5 ease;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    height: 170px;
+    position: sticky;
+    width: 100%;
+    padding: 0 50px;
+    z-index: 1;
+}
+
+.footer_links {
+    color: #fff;
+    text-decoration: none;
+}
+
+.copyright {
+    color: #fff;
+    justify-content: bottom;
+    display: flex;
+    font-size: 1rem;
+    height: 0px;
+    padding-top: 7px;
+    margin-top: 7px;
+    border-top: solid 1.5px #e1e1e1;
+}
+
+.content {
+    background: #002D74;
+    /*background: linear-gradient(90deg, rgba(0,221,223,1) 0%, rgba(1,255,160,1) 50%, rgba(191,255,12,1) 100%);*/
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: sticky;
+    align-items: right;
+}
+
+.head {
+    color: #fff;
+    font-size: 2rem;
+    font: 'TT Norms Pro', sans-serif;
+    font-style: italic;
+    justify-content: right;
+    align-items: right;
+}
+
+.start {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background: #53C8E9;
+}
+
+.im1 {
+    opacity: 1;
+    display: flex;
+    width: 75%;
+    height: 100%;
+    align-content: center;
+    justify-content: center;
+}
