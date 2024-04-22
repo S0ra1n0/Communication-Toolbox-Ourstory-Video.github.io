@@ -100,7 +100,7 @@ footer {
     align-items: center;
     justify-content: center;
     background-color: black;
-    height: 120px;
+    height: 170px;
     position: sticky;
     width: 100%;
     padding: 0 50px;
@@ -117,7 +117,7 @@ footer {
     color: #fff;
     justify-content: bottom;
     display: flex;
-    font-size: 1rem;
+    font-size: 1.2rem;
     height: 0px;
     padding-top: 7px;
     margin-top: 7px;
