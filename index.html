@@ -9,28 +9,55 @@
 <body>
     <nav class="navbar">
         <div class="navbar_container">
-            <a href="#home" id="navbar_logo1"> <img src = "image2a.png" width = 190 height = 135> </a> <!-- 720 x 509 -->
-            <a href="#home" id="navbar_logo2"> <img src = "image4.png" width =  220 height = 81> </a> <!-- 3672 x 1222 -->
-            <!--
+            <a href="https://s0ra1n0.github.io/Communication-Toolbox.github.io/" id="navbar_logo1"> <img src = "image2a.png" width = 190 height = 135> </a> <!-- 720 x 509 -->
+            <a href="https://s0ra1n0.github.io/Communication-Toolbox.github.io/" id="navbar_logo2"> <img src = "image4.png" width =  220 height = 81> </a> <!-- 3672 x 1222 -->
             <div class="navbar_toogle" id="mobile-menu">
                 <span class="bar"> </span>
                 <span class="bar"> </span>
                 <span class="bar"> </span>
             </div>
-            -->
+
             <ul class="navbar_menu"></ul>
-                <li class="navbar_item">
-                    <a href="#guidelines" class="navbar_links" id="home-page">Nguyên tắc chung</a>
-                </li>
-                <li class="navbar_item">
-                    <a href="#resources" class="navbar_links" id="about-page">Nguồn lực</a>
-                </li>
-                <li class="navbar_item">
-                    <a href="#Q&A" class="navbar_links" id="services-page">Q&A</a>
-                </li>
-                <li class="navbar_item">
-                    <a href="https://s0ra1n0.github.io/Communication-Toolbox-Ourstory-Video.github.io/" class="navbar_links" id="services-page">Về chúng tôi</a>
-                </li>
+                <div class = "navbar_item">
+                    <div class="dropdown">
+                        <button onclick="myFunction0()" class="dropbtn">Nguyên tắc chung</button>
+                            <div id="myDropdown0" class="dropdown-content">
+                                <a href="https://s0ra1n0.github.io/Communication-Toolbox-Guidelines-PANOR.github.io/">Các nguyên tắc "PANOR"</a>
+                                <a href="https://s0ra1n0.github.io/Communication-Toolbox-Guidelines-DO-DONT.github.io/">DO and DON'T</a>
+                                <a href="https://s0ra1n0.github.io/Communication-Toolbox-Guidelines-Scenarios.github.io/">Tình huống</a>
+                            </div>
+                    </div>
+                </div>
+
+                <div class = "navbar_item">
+                    <div class="dropdown">
+                        <button onclick="myFunction1()" class="dropbtn">Nguồn lực</button>
+                            <div id="myDropdown1" class="dropdown-content">
+                                <a href="https://s0ra1n0.github.io/Communication-Toolbox-Resources-Template.github.io/">Templates</a>
+                                <a href="https://s0ra1n0.github.io/Communication-Toolbox-Resources-Images.github.io/">Ảnh</a>
+                                <a href="https://s0ra1n0.github.io/Communication-Toolbox-Resources-Recognition.github.io/">Bộ nhận diện UMT</a>
+                            </div>
+                    </div>
+                </div>
+
+                <div class = "navbar_item">
+                    <div class="dropdown">
+                        <button onclick="myFunction2()" class="dropbtn">Q&A</button>
+                            <div id="myDropdown2" class="dropdown-content">
+                                <a href="https://s0ra1n0.github.io/Communication-Toolbox-Q-A-10Questions.github.io/">10 câu hỏi thường gặp</a>
+                                <a href="https://s0ra1n0.github.io/Communication-Toolbox-Q-A-Chatwithus.github.io/">Trò chuyện với chúng tôi</a>
+                            </div>
+                    </div>
+                </div>
+
+                <div class = "navbar_item">
+                    <div class="dropdown">
+                        <button onclick="myFunction3()" class="dropbtn">Về chúng tôi</button>
+                            <div id="myDropdown3" class="dropdown-content">
+                                <a href="https://s0ra1n0.github.io/Communication-Toolbox-Ourstory-Video.github.io/">Video</a>
+                            </div>
+                    </div>
+                </div>
         </div>
     </nav>
     <div class = "start">
@@ -38,13 +65,10 @@
             src="https://youtu.be/CHu39GluyjU?controls=1"> <!--1280 x 720-->
         </iframe>
     </div>
-    <div class="content">
-        <h1 class = "head"><b>We connect, we share, we grow</b></h1>
-    </div>
     <script src="JAVASCRIPT.js"></script> <!-- link with js file-->
     <footer>
         <div class="copyright">
-            <p> &#169; 2024 <a href = "#home" class = "footer_links" id = "home-page">UMT</a>. Privacy Policy</p>
+            <p> &#169; 2024 <a href = "https://s0ra1n0.github.io/Communication-Toolbox.github.io/" class = "footer_links" id = "home-page">UMT</a>. All rights reserved.</p>
         </div>
     </footer>
 </body>
